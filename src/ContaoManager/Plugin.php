@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace RackRuether\MailChimpBundle\ContaoManager;
+namespace RackRuether\MailchimpBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use RackRuether\MailChimpBundle\RackRuetherMailChimpBundle;
+use RackRuether\MailChimpBundle\RackRuetherMailchimpBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -18,7 +18,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser): array
     {
         return [
-            BundleConfig::create(RackRuetherMailChimpBundle::class)->setLoadAfter([ContaoCoreBundle::class]),
+            BundleConfig::create(RackRuetherMailchimpBundle::class)->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
 }

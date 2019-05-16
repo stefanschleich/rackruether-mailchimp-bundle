@@ -29,11 +29,11 @@
         "contao/manager-plugin": "^2.0"
     },
     "extra": {
-        "contao-manager-plugin": "RackRuether\\MailChimpBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "RackRuether\\MailchimpBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "RackRuether\\MailChimpBundle\\": "src"
+            "RackRuether\\MailchimpBundle\\": "src"
         }
     },
     "prefer-stable": true,
